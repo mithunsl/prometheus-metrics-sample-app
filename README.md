@@ -8,7 +8,7 @@ A sample prometheus metrics python application
 4. [Helm](https://helm.sh/docs/intro/install/)
 5. [Kustomize](https://kubectl.docs.kubernetes.io/installation/kustomize/)
 
-Note: If you are using Docker Desktop on Mac or Windows, please make sure the Docker VM is a minimum of 4 CPUs and 6GB Memory.
+Note: If you are using Docker Desktop on Mac or Windows, please make sure the Docker VM is configured to use a minimum of 4 CPUs and 6GB Memory.
 (This can be modified under the setting/preferences of Docker Desktop)
 
 ### Steps
