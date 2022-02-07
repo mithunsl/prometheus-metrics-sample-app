@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: metrics
+  name: metrics
+  namespace: metrics
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: metrics
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: metrics
+    spec:
+      containers:
+      - image: metrics:v0.1
+        name: test
+        resources: {}
+status: {}
