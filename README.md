@@ -14,8 +14,7 @@ Note: If you are using Docker Desktop on Mac or Windows, please make sure the Do
 ### Steps
 1. Create a kubernetes cluster.
 ```
-kind create cluster -f kind/config.yal
-
+kind create cluster -f kind/config.yaml
 ```
 2. Install the prometheus-operator using the kube-prometheus-stack helm chart.
 ```
