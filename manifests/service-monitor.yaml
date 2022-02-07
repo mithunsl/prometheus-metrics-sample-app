@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/part-of: kube-prometheus
     release: kube-prometheus-stack
   name: metrics
-  namespace: monitoring
+  namespace: metrics
 spec:
   endpoints:
   - interval: 30s
